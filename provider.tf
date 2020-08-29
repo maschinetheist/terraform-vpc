@@ -7,7 +7,7 @@ terraform {
     encrypt = true
     bucket = "mpietru-codebuild-terraform-us-west-2"
     dynamodb_table = "terraform-state-lock-dynamo"
-    key = "terraform-vpc/terraform.tfstate"
+    key = "path/path/terraform.tfstate"
     region = "us-west-2"
   }
 }
